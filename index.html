@@ -1,119 +1,381 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Luis Miguel Lopez Toyo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luis Miguel López Toyo | Ingeniero de Gas Natural</title>
 
 <style>
+*{
+  box-sizing:border-box;
+}
 
 body{
-font-family: Arial;
-margin:0;
-background:#f4f6f8;
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+  color:#20252b;
+  line-height:1.6;
 }
 
 header{
-background:#0b3d5c;
-color:white;
-padding:60px;
-text-align:center;
+  background:#0b3d5c;
+  color:white;
+  padding:70px 25px;
+  text-align:center;
 }
 
-section{
-max-width:1000px;
-margin:auto;
-padding:40px;
+header h1{
+  margin:0 0 12px;
+  font-size:42px;
+}
+
+header h2{
+  margin:0;
+  font-size:20px;
+  font-weight:normal;
+}
+
+header p{
+  margin:12px 0 0;
+  opacity:.9;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 25px;
 }
 
 .card{
-background:white;
-padding:25px;
-margin-bottom:25px;
-border-radius:10px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  background:white;
+  padding:32px;
+  margin-bottom:25px;
+  border-radius:12px;
+  box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+h2{
+  color:#0b3d5c;
+}
+
+h3{
+  margin-bottom:5px;
+}
+
+.date{
+  color:#65727d;
+  font-weight:bold;
 }
 
 .skills{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:10px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+
+.skill{
+  background:#eef3f6;
+  padding:12px 15px;
+  border-radius:7px;
+}
+
+.job{
+  padding-bottom:24px;
+  margin-bottom:24px;
+  border-bottom:1px solid #e1e5e8;
+}
+
+.job:last-child{
+  border-bottom:none;
+  margin-bottom:0;
+}
+
+.contact{
+  text-align:center;
 }
 
 footer{
-background:#0b3d5c;
-color:white;
-text-align:center;
-padding:20px;
+  background:#0b3d5c;
+  color:white;
+  text-align:center;
+  padding:25px;
 }
 
+@media(max-width:700px){
+  header h1{
+    font-size:32px;
+  }
+
+  .skills{
+    grid-template-columns:1fr;
+  }
+
+  .card{
+    padding:22px;
+  }
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Luis Miguel López Toyo</h1>
-<p>Natural Gas Engineer | Rotating Equipment Specialist</p>
+  <h1>Luis Miguel López Toyo</h1>
+  <h2>Ingeniero de Gas Natural · M.Sc. Ingeniería de Procesos del Gas Natural</h2>
+  <p>Especialista en Equipos Rotativos | Oil & Gas | Madrid, España</p>
 </header>
 
-<section>
+<main class="container">
 
-<div class="card">
-<h2>About Me</h2>
-<p>Engineer with more than 17 years of experience in the Oil & Gas industry specializing in gas compression plants, rotating equipment maintenance and industrial commissioning.</p>
-</div>
+<section class="card">
+<h2>Perfil Profesional</h2>
 
-<div class="card">
-<h2>Experience</h2>
+<p>
+Ingeniero de Gas y Procesos con más de 17 años de experiencia profesional
+en la industria Oil & Gas en Venezuela y Argentina.
+</p>
 
-<p><b>Gas Compression Chief – YPF</b> (2020–2025)</p>
-<ul>
-<li>Operation of gas compression plants</li>
-<li>Emergency management</li>
-<li>O&M contract supervision</li>
-</ul>
+<p>
+Especializado en operación, mantenimiento, inspección y planificación de
+equipos rotativos, plantas de compresión de gas, pruebas FAT y SAT,
+pre-commissioning, commissioning, contratación y administración de contratos.
+</p>
 
-<p><b>Compression Supervisor – YPF</b> (2019–2020)</p>
-<ul>
-<li>Technical staff supervision</li>
-<li>Maintenance planning</li>
-</ul>
+<p>
+Experiencia en tratamiento, procesamiento, compresión, distribución y
+almacenamiento de gas natural, así como en caracterización de fluidos,
+evaluación de procesos y equipos industriales.
+</p>
+</section>
 
-<p><b>Process Engineer – SAACKE</b> (2018–2019)</p>
-<ul>
-<li>Combustion system optimization</li>
-<li>Commissioning and start-up</li>
-</ul>
 
-</div>
-
-<div class="card">
-<h2>Technical Skills</h2>
+<section class="card">
+<h2>Áreas de Especialización</h2>
 
 <div class="skills">
-<div>Rotating Equipment</div>
-<div>Centrifugal Compressors</div>
-<div>Gas Turbines</div>
-<div>Commissioning</div>
-<div>Aspen Hysys</div>
-<div>Failure Analysis</div>
-</div>
+
+<div class="skill">Equipos rotativos</div>
+<div class="skill">Compresión de gas</div>
+<div class="skill">Compresores centrífugos y reciprocantes</div>
+<div class="skill">Turbinas de gas</div>
+<div class="skill">Commissioning y Pre-Commissioning</div>
+<div class="skill">FAT / SAT</div>
+<div class="skill">Integridad mecánica y confiabilidad</div>
+<div class="skill">Análisis de fallas</div>
+<div class="skill">Mantenimiento predictivo</div>
+<div class="skill">Optimización de procesos</div>
+<div class="skill">Eficiencia energética</div>
+<div class="skill">Aspen HYSYS / PRO II</div>
+<div class="skill">P&ID y documentación técnica</div>
+<div class="skill">Gestión de proyectos industriales</div>
+<div class="skill">Contratos O&M</div>
+<div class="skill">KPI operativos</div>
 
 </div>
+</section>
 
-<div class="card">
-<h2>Contact</h2>
 
-<p>Email: lopeztoyol@gmail.com</p>
-<p>Phone: +34 602558243</p>
-<p>Location: Madrid, Spain</p>
+<section class="card">
+<h2>Experiencia Profesional</h2>
 
+<div class="job">
+<h3>Jefe de Compresión de Gas · YPF</h3>
+<div class="date">Neuquén, Argentina | Octubre 2020 – Julio 2025</div>
+
+<ul>
+<li>Control y verificación del estado de equipos e instalaciones de compresión.</li>
+<li>Gestión operativa ante emergencias del complejo de compresión.</li>
+<li>Supervisión de la operación eficiente y sustentable de plantas compresoras.</li>
+<li>Seguimiento de actividades operativas asociadas a contratos de O&M.</li>
+<li>Identificación de peligros y evaluación de riesgos operacionales.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Supervisor de Compresión · YPF</h3>
+<div class="date">Neuquén, Argentina | Junio 2019 – Septiembre 2020</div>
+
+<ul>
+<li>Supervisión y coordinación del personal asociado a servicios de compresión.</li>
+<li>Soporte técnico a empresas contratistas.</li>
+<li>Seguimiento de calidad, seguridad y medio ambiente.</li>
+<li>Coordinación con Operaciones de maniobras y paradas programadas.</li>
+<li>Seguimiento de planes de trabajo y desempeño de contratistas.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Ingeniero Técnico de Procesos · SAACKE Combustión Argentina</h3>
+<div class="date">Buenos Aires, Argentina | Noviembre 2018 – Julio 2019</div>
+
+<ul>
+<li>Optimización de operación y mantenimiento de calderas.</li>
+<li>Evaluación de eficiencia energética y combustibles.</li>
+<li>Análisis de llama y gases de combustión.</li>
+<li>Evaluación y diseño de sistemas de quemadores.</li>
+<li>Commissioning, pre-commissioning y puesta en marcha.</li>
+<li>Evaluación de controles y elementos de seguridad de sistemas de combustión.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Supervisor de Ingeniería y Estrategias de Contratación · PDVSA</h3>
+<div class="date">Zulia, Venezuela | Julio 2016 – Agosto 2018</div>
+
+<ul>
+<li>Elaboración de cómputos, especificaciones técnicas y cálculos métricos.</li>
+<li>Coordinación de procesos de contratación para Ingeniería y Proyectos.</li>
+<li>Planificación e implementación de estrategias de contratación.</li>
+<li>Soporte técnico y administrativo para programas de mantenimiento.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Supervisor de Planeación y Contratación · PDVSA</h3>
+<div class="date">Zulia, Venezuela | Julio 2015 – Julio 2016</div>
+
+<ul>
+<li>Planeación y control de ingeniería, procura, construcción y puesta en marcha.</li>
+<li>Gestión de proyectos de plantas de proceso y equipos rotativos principales.</li>
+<li>Dirección técnica y administrativa de proyectos de infraestructura.</li>
+<li>Preparación de propuestas técnicas y económicas para licitaciones.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Supervisor de Monitoreo y Control de Procesos · PDVSA</h3>
+<div class="date">Zulia, Venezuela | Mayo 2012 – Febrero 2014</div>
+
+<ul>
+<li>Inspección y seguimiento de equipos rotativos.</li>
+<li>Análisis de variables operacionales de compresores centrífugos y turbinas de gas.</li>
+<li>Ingeniería conceptual, básica y de detalle.</li>
+<li>Consultoría técnica para plantas de compresión y generación de energía.</li>
+<li>Análisis de datos operacionales e inspección directa de instalaciones.</li>
+</ul>
+</div>
+
+
+<div class="job">
+<h3>Ingeniero de Planta · PDVSA</h3>
+<div class="date">Zulia, Venezuela | Junio 2010 – Mayo 2012</div>
+
+<ul>
+<li>Diagnóstico y operación de turbinas, compresores y bombas.</li>
+<li>Optimización de operación y mantenimiento de calderas.</li>
+<li>Evaluación de eficiencia y propiedades de combustibles.</li>
+<li>Análisis de llama y gases de combustión.</li>
+<li>Commissioning, pre-commissioning y puesta en marcha.</li>
+</ul>
 </div>
 
 </section>
 
+
+<section class="card">
+<h2>Equipos Rotativos y Procesos</h2>
+
+<p>
+Experiencia técnica en turbinas industriales y aeroderivadas,
+compresores centrífugos y reciprocantes, bombas y sistemas auxiliares.
+</p>
+
+<p>
+Experiencia con turbinas Rolls-Royce RB211, Avon, Maxi Avon y
+General Electric LM2500 / LM6000.
+</p>
+
+<p>
+Capacidad para diagnóstico de fallas, análisis de variables operacionales,
+mantenimiento especializado, overhaul, reparación mayor, instalación,
+alineación y puesta en marcha de equipos.
+</p>
+
+<p>
+Experiencia en simulaciones de procesos mediante Aspen HYSYS y PRO II.
+</p>
+</section>
+
+
+<section class="card">
+<h2>Educación</h2>
+
+<div class="job">
+<h3>Máster Universitario en Ingeniería de Organización, Dirección de Proyectos y Empresas</h3>
+<p>Universidad Europea de Madrid · Campus Alcobendas</p>
+</div>
+
+<div class="job">
+<h3>Magister Scientiarum en Ingeniería de Procesos del Gas Natural</h3>
+<p>Universidad del Zulia · Facultad de Ingeniería</p>
+<p>2012 – 2014</p>
+</div>
+
+<div class="job">
+<h3>Ingeniero de Gas y Procesos</h3>
+<p>Universidad Nacional Experimental Rafael María Baralt</p>
+<p>2004 – 2009</p>
+</div>
+
+</section>
+
+
+<section class="card">
+<h2>Competencias Profesionales</h2>
+
+<ul>
+<li>Liderazgo de equipos multidisciplinarios.</li>
+<li>Gestión y ejecución de proyectos industriales.</li>
+<li>Planificación y control de mantenimiento.</li>
+<li>Análisis de causa raíz y resolución de fallas complejas.</li>
+<li>Gestión de confiabilidad y disponibilidad de equipos.</li>
+<li>Control de costos y recursos operativos.</li>
+<li>Interpretación de documentación OEM y especificaciones técnicas.</li>
+<li>Gestión de seguridad, calidad y medio ambiente.</li>
+<li>Soporte técnico de campo y taller.</li>
+<li>Gestión del cambio y mejora continua.</li>
+</ul>
+
+</section>
+
+
+<section class="card contact">
+<h2>Contacto</h2>
+
+<p><strong>Madrid, España</strong></p>
+
+<p>
+<a href="mailto:lopeztoyol@gmail.com">
+lopeztoyol@gmail.com
+</a>
+</p>
+
+<p>
+<a href="mailto:ing.lopezlmj@gmail.com">
+ing.lopezlmj@gmail.com
+</a>
+</p>
+
+<p>
+<a href="tel:+34602558243">
++34 602 558 243
+</a>
+</p>
+
+</section>
+
+</main>
+
+
 <footer>
-© Luis Miguel Lopez Toyo
+Luis Miguel López Toyo · Ingeniero de Gas Natural · Equipos Rotativos
 </footer>
 
 </body>
